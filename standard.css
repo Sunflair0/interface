@@ -184,7 +184,7 @@ article:before {
 	z-index: -1;
 }
 
-#intro {
+#intro, .boxes {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	padding-left: 10vw;
@@ -207,4 +207,21 @@ article:before {
 
 .icon {
 	height: 1.5em;
+}
+
+footer {
+    background-color: transparent;
+    padding: 1em;
+    margin-bottom: 1em 10vw .5em 10vw;
+    font-size: 0.8em;
+}
+
+#course::before {
+    background-image: url("images/computer-class.jpg");
+    background-position: center top;
+}
+
+#about::before {
+    background-image: url("images/kent-teaching.jpg");
+    background-position: center top;
 }
